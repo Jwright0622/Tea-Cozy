@@ -10,6 +10,7 @@ body {
     color: seashell;
     opacity: 0.9;
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -23,6 +24,7 @@ nav {
     top: 0;
     width: 100%;
     background: black;
+    z-index: 2;
 }
 
 .logo {
@@ -37,7 +39,23 @@ nav {
     color: seashell;
 }
 
-banner-background {
-    height: 700px;
-    width: 1200px;
+.banner-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.banner-background img{
+  position: relative;
+}
+ 
+.mission-banner {
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+}
+
+.mission-banner h2,h4 {
+  margin: 15px;
 }
