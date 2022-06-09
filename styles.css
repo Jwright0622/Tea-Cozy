@@ -59,3 +59,14 @@ nav {
 .mission-banner h2,h4 {
   margin: 15px;
 }
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tea-of-the-month {
+  margin: 15px;
+  width: 1000px;
+}
