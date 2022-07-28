@@ -44,6 +44,7 @@ nav {
   align-items: center;
   justify-content: center;
   padding-top: 69px;
+  max-width: 100%;
 }
 
 .banner-background img{
@@ -54,11 +55,12 @@ nav {
   position: absolute;
   background-color: black;
   width: 1200px;
-  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .mission-banner h2,h4 {
   margin: 15px;
+  flex-wrap: wrap;
 }
 
 main {
@@ -70,4 +72,20 @@ main {
 .tea-of-the-month {
   margin: 15px;
   width: 1000px;
+}
+
+.tea-of-the-month-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.tea-of-the-month-img img {
+  height: 200px;
+  width: 300px;
+  margin: 20px 15px 0;
+}
+
+.tea-of-the-month-img figcaption {
+  margin-top: 10px;
 }
